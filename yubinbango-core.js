@@ -5,7 +5,7 @@ var YubinBango;
     var Core = (function () {
         function Core(inputVal, callback) {
             if (inputVal === void 0) { inputVal = ''; }
-            this.URL = 'https://yubinbango.github.io/yubinbango-data/data';
+            this.URL = '/js/yubinbango-data/data';
             this.REGION = [
                 null, '北海道', '青森県', '岩手県', '宮城県',
                 '秋田県', '山形県', '福島県', '茨城県', '栃木県',
